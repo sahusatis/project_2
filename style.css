@@ -152,18 +152,16 @@ input[type=checkbox]{
     margin-top: 15%;
     text-align: center;
     padding: 5px 10px;
+    border-radius: 10px;
 }
 
 .addnewtask-heading {
     float: left;
     border-bottom: 2px solid var(--skyblue);
     color: var(--black);
+    font-weight: bold;
 }
 
-.addnewtask-heading:hover {
-    letter-spacing: 2px;
-    transition: 0.3s ease-out;
-}
 
 .cross {
     float: right;
@@ -204,6 +202,7 @@ input[type=checkbox]{
     width: 100%;
     margin: 20px 0px;
     padding: 12px 20px;
+    background-color: rgb(216, 216, 226);
 }
 
 .addTaskbtn {
